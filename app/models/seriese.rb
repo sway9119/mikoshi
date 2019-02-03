@@ -1,6 +1,7 @@
 # == Schema Information
 #
 # Table name: serieses
+# シリーズ（ハリポタ・ドラえもんなど）
 #
 #  id         :bigint(8)        not null, primary key
 #  name       :string(255)

@@ -1,6 +1,7 @@
 # == Schema Information
 #
 # Table name: product_seasons
+# 映画とシーズンを紐付ける中間テーブル
 #
 #  id         :bigint(8)        not null, primary key
 #  product_id :bigint(8)

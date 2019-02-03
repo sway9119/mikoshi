@@ -1,6 +1,7 @@
 # == Schema Information
 #
 # Table name: distribution_companies
+# 配給会社名
 #
 #  id         :bigint(8)        not null, primary key
 #  name       :string(255)
