@@ -1,0 +1,55 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id           :bigint(8)        not null, primary key
+#  title        :string(255)
+#  release_year :integer
+#  discription  :text(65535)
+#  director     :string(255)
+#  cast         :string(255)
+#  url          :string(255)
+#  thumbnail    :string(255)
+#  running_time :string(255)
+#  evaluation   :float(24)
+#  price        :decimal(10, )
+#  episode      :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  release_year: 1
+  discription: MyText
+  director: MyString
+  cast: MyString
+  url: MyString
+  thumbnail: MyString
+  running_time: MyString
+  evaluation: 1.5
+  price: 9.99
+  distribution_company_id: one
+  genre_id: one
+  seriese_id: one
+  season_id: one
+  episode: 1
+
+two:
+  title: MyString
+  release_year: 1
+  discription: MyText
+  director: MyString
+  cast: MyString
+  url: MyString
+  thumbnail: MyString
+  running_time: MyString
+  evaluation: 1.5
+  price: 9.99
+  distribution_company_id: two
+  genre_id: two
+  seriese_id: two
+  season_id: two
+  episode: 1

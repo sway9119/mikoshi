@@ -1,0 +1,2 @@
+module HulusHelper
+end
