@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190203065259) do
+ActiveRecord::Schema.define(version: 20190203072043) do
 
   create_table "distribution_companies", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name"
@@ -20,6 +20,18 @@ ActiveRecord::Schema.define(version: 20190203065259) do
 
   create_table "genres", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "hulus", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "index"
+    t.string "show"
+    t.string "new"
+    t.string "create"
+    t.string "edit"
+    t.string "update"
+    t.string "destroy"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,0 +1,2 @@
+class Hulu < ApplicationRecord
+end
