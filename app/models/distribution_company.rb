@@ -10,4 +10,5 @@
 #
 
 class DistributionCompany < ApplicationRecord
+  has_many :products
 end

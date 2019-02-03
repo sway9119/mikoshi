@@ -10,4 +10,5 @@
 #
 
 class Seriese < ApplicationRecord
+  has_many :products
 end

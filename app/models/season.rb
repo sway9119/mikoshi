@@ -10,4 +10,5 @@
 #
 
 class Season < ApplicationRecord
+  belongs_to :product
 end
