@@ -1,0 +1,2 @@
+class DistributionCompany < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class Seriese < ApplicationRecord
+end
