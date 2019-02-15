@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/***************************************************************************************
+------------------------------
+reset
+------------------------------
+*****************************/
+html{font-size:62.5%;-moz-text-size-adjust:none;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;overflow-y:scroll;margin:0;padding:0;border:0;text-align:left;}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Hiragino Sans, 'メイリオ', 'Meiryo', 'Osaka', 'MS PGothic', -apple-system, BlinkMacSystemFont, arial, helvetica, sans-serif;
+    background: #fff;
+    color: #444;
+    font-size: 1.6rem;
+    letter-spacing:1.5px;
+    line-height: 1.6;
+    overflow-wrap: break-word; word-wrap:break-word;word-break:break-word;
+}
+body{margin:0;padding:0;border:0;}h1,h2,h3,h4,h5,h6,th,optgroup{font-weight:normal}::-webkit-validation-bubble-heading{font-weight:normal}button,input,select,textarea{font-family:inherit;font-size:100%;}*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}address,article,aside,blockquote,canvas,dd,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,li,main,nav,noscript,ol,output,p,pre,section,table,tfoot,ul,video,audio,caption,details,embed,ins,legend,menu,summary,tbody,td,th,thead,tr{margin:0;padding:0;border:0;vertical-align:bottom;font-size:100%;list-style:none;}a,abbr,acronym,*:after,b,bdo,*:before,big,br,button,cite,code,dfn,em,i,img,input,kbd,label,map,object,q,samp,script,select,small,span,strong,sub,sup,textarea,time,tt,var,applet,audio,del,mark,strike,u{margin:0;padding:0;border:0;vertical-align:bottom;list-style:none}em{font-style:normal}address{font-weight:normal}article,aside,canvas,details,figcaption,figure,header,footer,main,menu,nav,section,summary{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}input,button,textarea,select{margin:0;padding:0;background:none;border:none;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;outline:none}textarea,input[type="text"],input[type="button"],input[type="submit"],input[type="search"],input[type="reset"],select{border:0}input[type=text],select,textarea{border:1px solid #ccc}input[type="submit"],input[type="button"]{border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;-webkit-box-sizing:content-box;-webkit-appearance:button;appearance:button;border:none;box-sizing:border-box;cursor:pointer}input[type="submit"]::-webkit-search-decoration,input[type="button"]::-webkit-search-decoration{display:none}input[type="submit"]:focus,input[type="button"]:focus{outline-offset:-2px}input[type="checkbox"],input[type="radio"]{vertical-align:middle}::-webkit-input-placeholder{color:#7f7f7f}::-moz-placeholder{color:#7f7f7f}:-moz-placeholder{color:#7f7f7f}:-ms-input-placeholder{color:#7f7f7f}table{border-collapse:collapse;border-spacing:0;width:100%}a,a div,a p,a img,a:hover,a:hover div,a:hover p,a:hover img,a li,a dd{-webkit-backface-visibility:hidden;backface-visibility:hidden}a:focus{outline:none}img{max-width:100%;width:auto;height:auto;margin:0;padding:0;display:inline-block}sup{font-size:75.5%;vertical-align:top;position:relative;top:-.1em}sab{font-size:75.5%;vertical-align:bottom;position:relative;top:.1em}strong{font-weight:bold}a{display:inline-block;}a img{backface-visibility:hidden;}
+
+#wrapper{position:relative;overflow:hidden}
+
+.kome{padding-left:1em;text-indent:-1em}.kome_block{padding-left:1em;text-indent:-1em;display:block}.kome *{text-indent:initial}
+
+.min {
+    font-family :"Times New Roman", "游明朝", YuMincho,"ヒラギノ明朝 Pr6 W6","Hiragino Mincho Pro", "HGS明朝E","ＭＳ Ｐ明朝","MS PMincho", serif;
+}
+
+.hosoku { font-size: 1.3rem; }
+.txtb { font-size: 110%;}
+.txts { font-size: 90%;}
+
+.txtf { color: #ff0000}
+.txtf02 { color: #ff0000}
+.attxt { color: #ff0000}
+
+a {
+    text-decoration: underline;
+    color: #e60012;
+    opacity: 1;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: opacity 0.5s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.sent p+p, .sent .pstyle+.pstyle, .sent p+.pstyle, .sent p+.pstyle { margin-top: 1em }
+
+.fl{float:left !important}.fr{float:right !important}
+.tal{text-align:left !important}.tar{text-align:right !important}.tac{text-align:center !important}
+
+.mb00{margin-bottom:0 !important}.mb05{margin-bottom:5px !important}.mb10{margin-bottom:10px !important}.mb15{margin-bottom:15px !important}.mb20{margin-bottom:20px !important}.mb25{margin-bottom:25px !important}.mb30{margin-bottom:30px !important}.mb35{margin-bottom:35px !important}.mb40{margin-bottom:40px !important}.mb45{margin-bottom:45px !important}.mb50{margin-bottom:50px !important}.mb60{margin-bottom:60px !important}.mb70{margin-bottom:70px !important}.mb80{margin-bottom:80px !important}.mb90{margin-bottom:90px !important}.mb100{margin-bottom:100px !important}.mb110{margin-bottom:110px !important}.mb120{margin-bottom:120px !important}.mb130{margin-bottom:130px !important}.mb140{margin-bottom:140px !important}.mb150{margin-bottom:150px !important}.mb160{margin-bottom:160px !important}.mb170{margin-bottom:170px !important}.mb180{margin-bottom:180px !important}.mb190{margin-bottom:190px !important}.mb200{margin-bottom:200px !important}
+
+.mt00{margin-top:0 !important}.mt05{margin-top:5px !important}.mt10{margin-top:10px !important}.mt15{margin-top:15px !important}.mt20{margin-top:20px !important}.mt25{margin-top:25px !important}.mt30{margin-top:30px !important}.mt35{margin-top:35px !important}.mt40{margin-top:40px !important}.mt45{margin-top:45px !important}.mt50{margin-top:50px !important}.mt60{margin-top:60px !important}.mt70{margin-top:70px !important}.mt80{margin-top:80px !important}.mt90{margin-top:90px !important}.mt100{margin-top:100px !important}.mt110{margin-top:110px !important}.mt120{margin-top:120px !important}.mt130{margin-top:130px !important}.mt140{margin-top:140px !important}.mt150{margin-top:150px !important}.mt160{margin-top:160px !important}.mt170{margin-top:170px !important}.mt180{margin-top:180px !important}.mt190{margin-top:190px !important}.mt200{margin-top:200px !important}
+
+.pb00{padding-bottom:0 !important}.pb05{padding-bottom:5px !important}.pb10{padding-bottom:10px !important}.pb15{padding-bottom:15px !important}.pb20{padding-bottom:20px !important}.pb25{padding-bottom:25px !important}.pb30{padding-bottom:30px !important}.pb35{padding-bottom:35px !important}.pb40{padding-bottom:40px !important}.pb45{padding-bottom:45px !important}.pb50{padding-bottom:50px !important}.pb60{padding-bottom:60px !important}.pb70{padding-bottom:70px !important}.pb80{padding-bottom:80px !important}.pb90{padding-bottom:90px !important}.pb100{padding-bottom:100px !important}.pb110{padding-bottom:110px !important}.pb120{padding-bottom:120px !important}.pb130{padding-bottom:130px !important}.pb140{padding-bottom:140px !important}.pb150{padding-bottom:150px !important}.pb160{padding-bottom:160px !important}.pb170{padding-bottom:170px !important}.pb180{padding-bottom:180px !important}.pb190{padding-bottom:190px !important}.pb200{padding-bottom:200px !important}
+
+.pt00{padding-top:0 !important}.pt05{padding-top:5px !important}.pt10{padding-top:10px !important}.pt15{padding-top:15px !important}.pt20{padding-top:20px !important}.pt25{padding-top:25px !important}.pt30{padding-top:30px !important}.pt35{padding-top:35px !important}.pt40{padding-top:40px !important}.pt45{padding-top:45px !important}.pt50{padding-top:50px !important}.pt60{padding-top:60px !important}.pt70{padding-top:70px !important}.pt80{padding-top:80px !important}.pt90{padding-top:90px !important}.pt100{padding-top:100px !important}.pt110{padding-top:110px !important}.pt120{padding-top:120px !important}.pt130{padding-top:130px !important}.pt140{padding-top:140px !important}.pt150{padding-top:150px !important}.pt160{padding-top:160px !important}.pt170{padding-top:170px !important}.pt180{padding-top:180px !important}.pt190{padding-top:190px !important}.pt200{padding-top:200px !important}
+
+.clearfix:after,.container:after{content:'';clear:both;display:block;height:0;font-size:0;visibility:hidden}
+
+.inner {
+    padding: 0 15px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
