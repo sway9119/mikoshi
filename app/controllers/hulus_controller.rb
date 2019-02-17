@@ -2,8 +2,11 @@ class HulusController < ApplicationController
   def index
     # 今後コントローラーごとに絞り込んで取得するようにする
     # Product.where(publisher: "hulu") # publisher:配給元
-    @products = Product.all
+    # @products = Product.all
+    @elements = crawler
   end
+
+  private
 
   def crawler
     # サイトをクロールするためのmechanaze等のメソッド類は、
@@ -16,5 +19,8 @@ class HulusController < ApplicationController
     # モデル以外にロジックを分離していきます。
     # 特に「サービス」が便利で、ある一つの単位の機能をまとめて実装します。
     # https://qiita.com/chrischris0801/items/58a12d17a440b842db02
+    agent = Mechanize.new
+    page = agent.get("https://www.happyon.jp/")
+    page.search('title')
   end
 end
