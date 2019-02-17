@@ -18,4 +18,5 @@
 
 .byebug_history
 
+db/mysql/*
 db/mysql/volumes/*
