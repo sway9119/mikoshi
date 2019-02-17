@@ -1,7 +1,7 @@
 class HulusController < ApplicationController
   def index
     # 今後コントローラーごとに絞り込んで取得するようにする
-    # Product.where(publisher: "hulu")
+    # Product.where(publisher: "hulu") # publisher:配給元
     @products = Product.all
   end
 
